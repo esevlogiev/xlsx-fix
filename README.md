@@ -1,12 +1,14 @@
-# xlsx-style
+# xlsx-style-fix
 
 Parser and writer for various spreadsheet formats.  Pure-JS cleanroom implementation from official specifications and related documents.
 
 # About this fork
-**NOTE:** [This project](https://github.com/SheetJS/js-xlsx/tree/beta) is a fork of the original (and awesome) [SheetJS/xlsx](https://github.com/SheetJS/js-xlsx) project.
+**NOTE:** [This project](https://github.com/wish4129/js-xlsx/) is a fork of the original (and awesome) [SheetJS/xlsx](https://github.com/SheetJS/js-xlsx) project and forked version https://github.com/protobi/js-xlsx.
 It is extended to enable cell formats to be read from and written to .xlsx workbooks.
 The intent is to provide a temporary means of using these features in practice, and ultimately to merge this into the primary project.
-Report any issues to https://github.com/protobi/js-xlsx/issues.
+Report any issues to https://github.com/wish4129/js-xlsx/issues.
+
+It's fix for the reported bug as mentioned on: https://github.com/protobi/js-xlsx/issues/78
 
 For those contributing to this fork:
 * `master` is the main branch, which follows the original repo to enable a future pull request.
@@ -38,7 +40,7 @@ Source: <http://git.io/xlsx>
 With [npm](https://www.npmjs.org/package/xlsx-style):
 
 ```sh
-npm install xlsx-style --save
+npm install xlsx-style-fix --save
 ```
 
 In the browser:

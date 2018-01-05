@@ -1,6 +1,6 @@
 {
 	"name": "xlsx-style-fix",
-	"version": "0.8.22",
+	"version": "0.8.23",
 	"author": "wish4129",
 	"description": "Excel (XLSB/XLSX/XLSM/XLS/XML) and ODS spreadsheet parser and writer (extended to enable read/write of cell formats with xlsx files)",
 	"keywords": [ "excel", "xls", "xlsx", "xlsb", "xlsm", "ods", "office", "spreadsheet" ],
@@ -23,7 +23,7 @@
 		"xlsjs":"",
 		"uglify-js":""
 	},
-	"repository": { "type":"git", "url":"git://github.com/protobi/js-xlsx.git#beta" },
+	"repository": { "type":"git", "url":"git://github.com/wish4129/js-xlsx.git" },
 	"scripts": {
 		"pretest": "git submodule init && git submodule update",
 		"test": "make test"
@@ -33,7 +33,7 @@
 			"pattern": "xlsx.js"
 		}
 	},
-	"bugs": { "url": "https://github.com/protobi/js-xlsx/issues" },
+	"bugs": { "url": "https://github.com/wish4129/js-xlsx/issues" },
 	"license": "Apache-2.0",
 	"engines": { "node": ">=0.8" }
 }
